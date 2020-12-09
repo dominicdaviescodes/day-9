@@ -21,3 +21,23 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.btn {
+  background-color: #3cbb5c;
+  border-radius: 5px;
+  border: 1px solid #000;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
